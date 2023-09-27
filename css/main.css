@@ -1,0 +1,53 @@
+section {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr;
+  grid-template-rows: 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr ;
+  align-content: center;
+  justify-content: center;
+  gap:none
+
+}
+
+
+article:nth-child(1n+1){
+  background-color: black;
+  margin: auto;
+  min-width: 5rem;
+  min-height: 5rem;
+  width:80%;
+	height: 50px;
+	margin-bottom: 2px;	
+	
+}
+
+
+article:nth-child(3n-2){
+  background-color: white;
+  margin: auto;
+  min-width: 5rem;
+  min-height: 5rem;
+  width:80%;
+	height: 50px;
+
+}
+
+
+
+
+
+
+article{
+  color: transparent;
+}
+
+
+article img {
+  display: block;
+  width: 80%;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+
+
